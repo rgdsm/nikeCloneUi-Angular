@@ -1,0 +1,47 @@
+$buttonColor: #000000; 
+$fontColor: #fff;
+$hoverColor: #7e7e7e;
+
+.collection{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.nikeMembership h3 {
+    margin: 40px 0 40px 280px;
+    display: flex;
+    width: 280px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.collection img {
+    width: 70%;
+    height: 100%;
+}
+
+.buttonArea {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    gap: 20px;
+}
+
+.buttonArea button {
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+}
+
+.collectionButton {
+    color: $fontColor;
+    font-size: 16px;
+    background-color: $buttonColor;
+    cursor: pointer;
+}
+
+.collectionButton:hover {
+    background-color: $hoverColor;
+}
+
