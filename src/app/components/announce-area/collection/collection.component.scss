@@ -1,0 +1,40 @@
+$buttonColor: #000000; 
+$fontColor: #fff;
+$hoverColor: #7e7e7e;
+
+.collection{
+    display: flex;
+    margin: 0 200px;
+    text-align: center;
+    justify-content: center;
+}
+
+.collection img, .collectionBanner img {
+    width: 100%;
+    height: 100%;
+}
+
+.buttonArea {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    gap: 20px;
+}
+
+.buttonArea button {
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+}
+
+.collectionButton {
+    color: $fontColor;
+    font-size: 16px;
+    background-color: $buttonColor;
+    cursor: pointer;
+}
+
+.collectionButton:hover {
+    background-color: $hoverColor;
+}
+
