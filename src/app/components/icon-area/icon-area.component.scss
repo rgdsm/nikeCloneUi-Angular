@@ -1,0 +1,28 @@
+.nikeIcon {
+    margin: 40px 180px 0 180px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.dunks {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.dunks img {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nikeIcon h3 {
+    margin: 40px 0 40px 130px;
+    text-align: start;
+    font-size: 30px;
+    font-weight: 500;
+} 
