@@ -1,0 +1,25 @@
+$menuBar: #F7F7F7;
+$defaultColor: #FFFFFF;
+$fontColor: #000000;
+$hoverColor: #7e7e7e;
+
+
+.announceArea {
+    font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    font-size: 12px;
+    gap: 8px;
+    background-color: $menuBar;
+    color: $fontColor;
+}
+
+.announceArea h2 {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.announceArea a {
+    color: $fontColor;
+    font-size: 13px;
+}

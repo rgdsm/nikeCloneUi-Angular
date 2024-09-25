@@ -1,0 +1,70 @@
+$menuBar: #F7F7F7;
+$defaultColor: #FFFFFF;
+$fontColor: #000000;
+$hoverColor: #7e7e7e;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.logos img {
+    margin: 0 20px ;
+}
+
+.first__navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $menuBar;
+}
+
+.ul__firstBar {
+    display: flex;
+    gap:20px;
+    list-style-type: none;
+}
+
+.ul__firstBar a {
+    color: $fontColor;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.ul__firstBar a:hover {
+    color: $hoverColor;
+    transition: .5s;
+}
+
+//** Second navbar *//
+
+.second__navbar {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 25px 20px;
+    align-items: center;
+}
+
+.ulList {
+    display: flex;
+    gap: 20px;
+}
+
+.ulList a {
+    color: $fontColor;
+}
+
+.ulList a:hover {
+    border-bottom: 2px solid $fontColor;
+    padding: 0px 0px 25px 0;
+}
+
+.inputSearch {
+    display: flex;
+}
